@@ -1,0 +1,27 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Financials Measure",
+	"Elements":
+	[
+		{
+			"Name":"Activity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ending Balance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Test",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"YTest",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Financials Measure.subsets/Default Test Measure.json"
+	]
+}

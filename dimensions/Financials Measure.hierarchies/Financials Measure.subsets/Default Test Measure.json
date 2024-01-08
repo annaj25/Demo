@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Default Test Measure",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Financials Measure')/Hierarchies('Financials Measure')/Elements('Ending Balance')"
+		},
+		{
+			"@id":"Dimensions('Financials Measure')/Hierarchies('Financials Measure')/Elements('Test')"
+		},
+		{
+			"@id":"Dimensions('Financials Measure')/Hierarchies('Financials Measure')/Elements('YTest')"
+		}
+	]
+}
