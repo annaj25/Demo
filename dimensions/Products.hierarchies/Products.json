@@ -1,0 +1,256 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Products",
+	"Elements":
+	[
+		{
+			"Name":"TOTAL PRODUCTS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CAMPING EQUIPMENT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cooking Gear",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lanterns",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Packs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sleeping Bags",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tents",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GOLF EQUIPMENT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Golf Accessories",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Irons",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Putters",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Woods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MOUNTAINEERING EQUIPMENT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Climbing Accessories",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rope",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Safety",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tools",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OUTDOOR PROTECTION",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"First Aid",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Insect Repellents",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sunscreen",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PERSONAL ACCESSORIES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Binoculars",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Eyewear",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Knives",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Navigation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Watches",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"TOTAL PRODUCTS",
+			"ComponentName":"CAMPING EQUIPMENT",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL PRODUCTS",
+			"ComponentName":"GOLF EQUIPMENT",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL PRODUCTS",
+			"ComponentName":"MOUNTAINEERING EQUIPMENT",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL PRODUCTS",
+			"ComponentName":"OUTDOOR PROTECTION",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL PRODUCTS",
+			"ComponentName":"PERSONAL ACCESSORIES",
+			"Weight":1
+		},
+		{
+			"ParentName":"CAMPING EQUIPMENT",
+			"ComponentName":"Cooking Gear",
+			"Weight":1
+		},
+		{
+			"ParentName":"CAMPING EQUIPMENT",
+			"ComponentName":"Lanterns",
+			"Weight":1
+		},
+		{
+			"ParentName":"CAMPING EQUIPMENT",
+			"ComponentName":"Packs",
+			"Weight":1
+		},
+		{
+			"ParentName":"CAMPING EQUIPMENT",
+			"ComponentName":"Sleeping Bags",
+			"Weight":1
+		},
+		{
+			"ParentName":"CAMPING EQUIPMENT",
+			"ComponentName":"Tents",
+			"Weight":1
+		},
+		{
+			"ParentName":"GOLF EQUIPMENT",
+			"ComponentName":"Golf Accessories",
+			"Weight":1
+		},
+		{
+			"ParentName":"GOLF EQUIPMENT",
+			"ComponentName":"Irons",
+			"Weight":1
+		},
+		{
+			"ParentName":"GOLF EQUIPMENT",
+			"ComponentName":"Putters",
+			"Weight":1
+		},
+		{
+			"ParentName":"GOLF EQUIPMENT",
+			"ComponentName":"Woods",
+			"Weight":1
+		},
+		{
+			"ParentName":"MOUNTAINEERING EQUIPMENT",
+			"ComponentName":"Climbing Accessories",
+			"Weight":1
+		},
+		{
+			"ParentName":"MOUNTAINEERING EQUIPMENT",
+			"ComponentName":"Rope",
+			"Weight":1
+		},
+		{
+			"ParentName":"MOUNTAINEERING EQUIPMENT",
+			"ComponentName":"Safety",
+			"Weight":1
+		},
+		{
+			"ParentName":"MOUNTAINEERING EQUIPMENT",
+			"ComponentName":"Tools",
+			"Weight":1
+		},
+		{
+			"ParentName":"OUTDOOR PROTECTION",
+			"ComponentName":"First Aid",
+			"Weight":1
+		},
+		{
+			"ParentName":"OUTDOOR PROTECTION",
+			"ComponentName":"Insect Repellents",
+			"Weight":1
+		},
+		{
+			"ParentName":"OUTDOOR PROTECTION",
+			"ComponentName":"Sunscreen",
+			"Weight":1
+		},
+		{
+			"ParentName":"PERSONAL ACCESSORIES",
+			"ComponentName":"Binoculars",
+			"Weight":1
+		},
+		{
+			"ParentName":"PERSONAL ACCESSORIES",
+			"ComponentName":"Eyewear",
+			"Weight":1
+		},
+		{
+			"ParentName":"PERSONAL ACCESSORIES",
+			"ComponentName":"Knives",
+			"Weight":1
+		},
+		{
+			"ParentName":"PERSONAL ACCESSORIES",
+			"ComponentName":"Navigation",
+			"Weight":1
+		},
+		{
+			"ParentName":"PERSONAL ACCESSORIES",
+			"ComponentName":"Watches",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Products.subsets/CAMPING EQUIPMENT.json",
+		"Products.subsets/GOLF EQUIPMENT.json",
+		"Products.subsets/MOUNTAINEERING EQUIPMENT.json",
+		"Products.subsets/OUTDOOR PROTECTION.json",
+		"Products.subsets/PERSONAL ACCESSORIES.json"
+	]
+}

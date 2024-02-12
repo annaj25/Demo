@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"GO AMERICAS REGION",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO AMERICAS REGION')"
+		},
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO Americas')"
+		}
+	]
+}

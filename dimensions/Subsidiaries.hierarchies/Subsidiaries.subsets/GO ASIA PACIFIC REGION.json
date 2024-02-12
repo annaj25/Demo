@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"GO ASIA PACIFIC REGION",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO ASIA PACIFIC REGION')"
+		},
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO Asia Pacific')"
+		}
+	]
+}

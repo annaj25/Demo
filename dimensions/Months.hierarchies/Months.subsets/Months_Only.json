@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Months_Only",
+	"Expression":"{{TM1FILTERBYLEVEL(TM1SUBSETALL([Months].[Months]) , 0)}}"
+}

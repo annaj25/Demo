@@ -1,0 +1,23 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Versions",
+	"Elements":
+	[
+		{
+			"Name":"Budget Version 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget Version 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Submit Version",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Versions.subsets/Budget Version 1.json"
+	]
+}

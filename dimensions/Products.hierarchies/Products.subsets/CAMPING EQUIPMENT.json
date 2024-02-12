@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"CAMPING EQUIPMENT",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('CAMPING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('CAMPING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('CAMPING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('CAMPING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('CAMPING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('CAMPING EQUIPMENT')"
+		}
+	]
+}

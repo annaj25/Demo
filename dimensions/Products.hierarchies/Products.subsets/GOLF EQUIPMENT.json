@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"GOLF EQUIPMENT",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('GOLF EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('GOLF EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('GOLF EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('GOLF EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('GOLF EQUIPMENT')"
+		}
+	]
+}

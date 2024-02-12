@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"MOUNTAINEERING EQUIPMENT",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('MOUNTAINEERING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('MOUNTAINEERING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('MOUNTAINEERING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('MOUNTAINEERING EQUIPMENT')"
+		},
+		{
+			"@id":"Dimensions('Products')/Hierarchies('Products')/Elements('MOUNTAINEERING EQUIPMENT')"
+		}
+	]
+}

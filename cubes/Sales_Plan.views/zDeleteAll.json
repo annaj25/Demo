@@ -1,0 +1,37 @@
+{
+	"@type":"MDXView",
+	"Name":"zDeleteAll",
+	"MDX@Code.link":"zDeleteAll.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : 
+		{
+			"[Channels].[Channels]" : 
+			{
+				"Expression" : "{[Channels].[Channels].MEMBERS}"
+			},
+			"[Months].[Months]" : 
+			{
+				"Expression" : "{[Months].[Months].MEMBERS}"
+			},
+			"[Products].[Products]" : 
+			{
+				"Expression" : "{[Products].[Products].MEMBERS}"
+			},
+			"[Subsidiaries].[Subsidiaries]" : 
+			{
+				"Expression" : "{[Subsidiaries].[Subsidiaries].MEMBERS}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Channels].[Channels]" : false,
+			"[Months].[Months]" : false,
+			"[Products].[Products]" : false,
+			"[Sales_Plan_Measures].[Sales_Plan_Measures]" : false,
+			"[Subsidiaries].[Subsidiaries]" : false,
+			"[Versions].[Versions]" : false
+		}
+	}
+}
