@@ -14,6 +14,30 @@
 		{
 			"Name":"Submit Version",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"Test Demo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Test",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"A",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"C",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"D",
+			"Type":"Numeric"
 		}
 	],
 	"Subsets@Code.links":
