@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"GO EUROPE GMBH",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO EUROPE GMBH')"
+		},
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO Northern Europe')"
+		},
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO Southern Europe')"
+		},
+		{
+			"@id":"Dimensions('Subsidiaries')/Hierarchies('Subsidiaries')/Elements('GO Accessories GmbH')"
+		}
+	]
+}

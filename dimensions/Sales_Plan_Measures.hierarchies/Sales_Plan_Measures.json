@@ -1,0 +1,107 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Sales_Plan_Measures",
+	"Elements":
+	[
+		{
+			"Name":"Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Unit Sale Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GROSS SALES REVENUE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Returns and Allowances",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cash Discount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Volume Discount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TOTAL DISCOUNTS AND ALLOWANCES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NET SALES REVENUE",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Unit Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COST OF SALES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GROSS MARGIN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"GROSS MARGIN %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Peak Month",
+			"Type":"String"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"TOTAL DISCOUNTS AND ALLOWANCES",
+			"ComponentName":"Returns and Allowances",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL DISCOUNTS AND ALLOWANCES",
+			"ComponentName":"Cash Discount",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL DISCOUNTS AND ALLOWANCES",
+			"ComponentName":"Volume Discount",
+			"Weight":1
+		},
+		{
+			"ParentName":"NET SALES REVENUE",
+			"ComponentName":"GROSS SALES REVENUE",
+			"Weight":1
+		},
+		{
+			"ParentName":"NET SALES REVENUE",
+			"ComponentName":"TOTAL DISCOUNTS AND ALLOWANCES",
+			"Weight":-1
+		},
+		{
+			"ParentName":"NET SALES REVENUE",
+			"ComponentName":"Freight",
+			"Weight":-1
+		},
+		{
+			"ParentName":"GROSS MARGIN",
+			"ComponentName":"NET SALES REVENUE",
+			"Weight":1
+		},
+		{
+			"ParentName":"GROSS MARGIN",
+			"ComponentName":"COST OF SALES",
+			"Weight":-1
+		}
+	],
+	"Subsets@Code.links":[]
+}

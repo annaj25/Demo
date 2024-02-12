@@ -1,0 +1,10 @@
+SKIPCHECK;
+['Unit Sale Price'] = N:DB( 'Price_and_Cost', !Channels, !Products, !Months, !Versions, 'Unit Sale Price'  );
+C: ['GROSS SALES REVENUE']\['Quantity'];
+['Unit Cost'] = N:DB( 'Price_and_Cost', !Channels, !Products, !Months, !Versions, 'Unit Cost'  );
+C: ['COST OF SALES'] \ ['Quantity'];
+['GROSS SALES REVENUE'] = N: ['Quantity']*['Unit Sale Price'];
+['COST OF SALES'] = N: ['Quantity']*['Unit Cost'];
+
+FEEDERS;
+['Quantity'] => ['GROSS SALES REVENUE'], ['COST OF SALES'];

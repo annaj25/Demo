@@ -1,0 +1,40 @@
+{
+	"@type":"MDXView",
+	"Name":"SO_Sales_Plan_Default",
+	"MDX@Code.link":"SO_Sales_Plan_Default.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Months].[Months]" : "MEMBER_NAME"
+		},
+		"ContextSets" : 
+		{
+			"[Channels].[Channels]" : 
+			{
+				"Expression" : "{[Channels].[Channels].MEMBERS}"
+			},
+			"[Products].[Products]" : 
+			{
+				"Expression" : "{[Products].[Products].MEMBERS}"
+			},
+			"[Subsidiaries].[Subsidiaries]" : 
+			{
+				"Expression" : "{[Subsidiaries].[Subsidiaries].MEMBERS}"
+			},
+			"[Versions].[Versions]" : 
+			{
+				"Expression" : "{[Versions].[Versions].MEMBERS}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Channels].[Channels]" : false,
+			"[Months].[Months]" : false,
+			"[Products].[Products]" : false,
+			"[Sales_Plan_Measures].[Sales_Plan_Measures]" : false,
+			"[Subsidiaries].[Subsidiaries]" : false,
+			"[Versions].[Versions]" : false
+		}
+	}
+}
